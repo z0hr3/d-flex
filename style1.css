@@ -1,0 +1,48 @@
+.d-flex{
+    display: flex;
+}
+.child{
+    font-size: 40px;
+    padding: 50px;
+    background: lightpink;
+    margin: 20px 1px 20px 1px;
+    border: 4px solid black;
+}
+.flex-end{
+    flex-direction: column;
+
+}
+.justify-content-between{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-center{
+    justify-content: center;
+
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+    -webkit-justify-content: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+
+}
+.child1{
+    background-color: snow;
+    width: 100px;
+    height: 30px;
+    padding: 18px 4px 8px 40px;
+    border: 4px solid #0b3d91;
+    margin: 2px;
+
+}
+.flex-container{
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    height: 300px;
+    background-color: #0dcaf0;
+}
